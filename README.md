@@ -9,10 +9,10 @@
 
 
 ## Tutorial utilizado:
-O tutorial utilziado para o desenvolvimento deste projeto se encontra na playlist abaixo:
+O tutorial utilziado para o desenvolvimento deste projeto se encontra nesta *[Playlist](https://www.youtube.com/watch?v=nBJ8b3Guvxg&list=PLiPhybDsJtYrz31ZaMtDiQ5LSRciA-SZP&pp=gAQB)*:
 
 - Esta playlist foi produzida por mim, para organizar e visualizar melhor as aulas - realizadas pelo **Me. Prof. Marcelo T. Santana.**
 
-*[Playlist](https://www.youtube.com/watch?v=nBJ8b3Guvxg&list=PLiPhybDsJtYrz31ZaMtDiQ5LSRciA-SZP&pp=gAQB)*
-
-> Copyright © 2025 [Marcelo Tavares de Santana](https://www.youtube.com/@marcelotavaresdesantana-if5635). Todos os direitos reservados.
+> Copyright © 2025 Marcelo Tavares de Santana. Todos os direitos reservados.
+> - Canal do YouTube: [Marcelo Tavares de Santana - IFSP São Paulo](https://www.youtube.com/@marcelotavaresdesantana-if5635)
+> - Perfil do GitHub: [Marcelo Tavares de Santana](https://github.com/marcelo-tavares-ifsp)
