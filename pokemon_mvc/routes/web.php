@@ -1,7 +1,8 @@
-<?php
+'<?php
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\CadastrarPokemonController;
+use App\Http\Controllers\XmlController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -18,6 +19,7 @@ Route::get('/cadastrar-pokemon', function () {
 
 Route::post('/cadastrar-pokemon', [CadastrarPokemonController::class, 'salvar_pokemon'])->middleware(['auth', 'verified'])->name('cadastrar-pokemon');
 
+Route::get('/data-xml', [XmlController::class, 'gerarXML'])->middleware(['auth', 'verified'])->name('data-xml');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
