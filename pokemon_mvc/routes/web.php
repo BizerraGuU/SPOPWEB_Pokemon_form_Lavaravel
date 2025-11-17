@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\CadastrarPokemonController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -14,6 +15,9 @@ Route::get('/dashboard', function () {
 Route::get('/cadastrar-pokemon', function () {
     return view('cadastrar-pokemon');
 })->middleware(['auth', 'verified'])->name('cadastrar-pokemon');
+
+Route::post('/cadastrar-pokemon', [CadastrarPokemonController::class, 'salvar_pokemon'])->middleware(['auth', 'verified'])->name('cadastrar-pokemon');
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

@@ -91,7 +91,7 @@
             text-align: center;
             margin-bottom: 2rem;
             position: relative;
-        }
+        }   
         
         /* Card com tema Pokémon */
         .pokemon-card {
