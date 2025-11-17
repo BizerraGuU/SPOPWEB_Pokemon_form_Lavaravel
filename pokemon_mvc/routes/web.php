@@ -1,4 +1,4 @@
-'<?php
+<?php
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\CadastrarPokemonController;
@@ -17,8 +17,11 @@ Route::get('/cadastrar-pokemon', function () {
     return view('cadastrar-pokemon');
 })->middleware(['auth', 'verified'])->name('cadastrar-pokemon');
 
-Route::post('/cadastrar-pokemon', [CadastrarPokemonController::class, 'salvar_pokemon'])->middleware(['auth', 'verified'])->name('cadastrar-pokemon');
+Route::post('/cadastrar-pokemon', [CadastrarPokemonController::class, 'salvar_pokemon'])
+    ->middleware(['auth', 'verified'])
+    ->name('cadastrar-pokemon');
 
+// ROTA XML CORRETA - abre em nova aba
 Route::get('/data-xml', [XmlController::class, 'gerarXML'])->middleware(['auth', 'verified'])->name('data-xml');
 
 Route::middleware('auth')->group(function () {

@@ -26,7 +26,7 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('data-xml')">
+                    <x-nav-link :href="route('data-xml')" target="_blank">
                         {{ __('Dados (XML)') }}
                     </x-nav-link>
                 </div>
@@ -92,10 +92,10 @@
             </x-responsive-nav-link>
         </div>
 
-         <div class="pt-2 pb-3 space-y-1">
-            <x-responsive-nav-link :href="route('data-xml')" target='_blank'>
+        <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+            <x-nav-link :href="route('data-xml')" target="_blank">
                 {{ __('Dados (XML)') }}
-            </x-responsive-nav-link>
+            </x-nav-link>
         </div>
 
         <!-- Responsive Settings Options -->
