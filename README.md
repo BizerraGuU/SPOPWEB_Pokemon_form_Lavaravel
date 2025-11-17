@@ -5,7 +5,7 @@
 
 - **Nome**: ```Blue```
 - **E-Mail**: ```oakgrandson@pokedex.com```
-- **Nome**: ```Blastoise123@```
+- **Senha**: ```Blastoise123@```
 
 
 ## Tutorial utilizado:
