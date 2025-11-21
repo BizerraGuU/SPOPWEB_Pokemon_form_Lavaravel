@@ -1,12 +1,24 @@
 # Pokemon MVC - PHP (Laravel & Breeze)
 
+## Para Rodar
+
+Entre no diretório ```pokemon_mvc```
+
+```
+cd pokemon_mvc
+```
+
+Estando dentro do diretório correto, rode o comando:
+
+```
+php artinsan serve
+```
 
 ## Conta fictícia para acesso local:
 
 - **Nome**: ```Blue```
 - **E-Mail**: ```oakgrandson@pokedex.com```
 - **Senha**: ```Blastoise123@```
-
 
 ## Tutorial utilizado:
 O tutorial utilziado para o desenvolvimento deste projeto se encontra nesta *[Playlist](https://www.youtube.com/watch?v=nBJ8b3Guvxg&list=PLiPhybDsJtYrz31ZaMtDiQ5LSRciA-SZP&pp=gAQB)*:
