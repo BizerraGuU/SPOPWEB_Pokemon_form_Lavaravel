@@ -1,5 +1,9 @@
 # Pokemon MVC - PHP (Laravel & Breeze)
 
+<p align="center">
+  <img src="https://i.gifer.com/1ImB.gif" width="480" />
+</p>
+
 ## Para Rodar
 
 Entre no diretório ```pokemon_mvc```
